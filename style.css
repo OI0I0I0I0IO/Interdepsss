@@ -1,0 +1,57 @@
+html {
+	height: 100vh;
+	margin: 0;
+  padding: 0px;
+	background: pink;
+	color:#444;
+	overflow-y: scroll;
+}
+
+nav{
+  width: 80%;
+  margin: 0 auto;
+  background-color: auto;
+  position: sticky;
+  top: 0px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+
+nav a:hover{
+  color: orange;
+  border-bottom: 2px solid gold;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+nav ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+.Contenu{
+  padding: 0 5%;
+}
